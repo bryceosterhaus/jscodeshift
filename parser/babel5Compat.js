@@ -21,6 +21,7 @@ const options = {
   allowImportExportEverywhere: true,
   allowReturnOutsideFunction: true,
   plugins: [
+    'decorators-legacy',
     'estree',
     'jsx',
     'asyncGenerators',
